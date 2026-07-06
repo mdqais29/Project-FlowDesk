@@ -41,6 +41,7 @@ Built using modern frontend technologies and realistic mock data, the project fo
 
 - React
 - Vite
+- TypeScript
 - Tailwind CSS
 - React Router
 
@@ -72,7 +73,7 @@ Optimized for:
 
 ## 🌐 Live Demo
 
-**Live Website:** https://your-demo-link.com
+**Live Website:** (https://flowdesk123.netlify.app/)
 
 ---
 
