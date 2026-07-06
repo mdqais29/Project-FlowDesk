@@ -1,20 +1,135 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# FlowDesk
 
-# Run and deploy your AI Studio app
+**FlowDesk** is a modern React-based client management platform designed for freelancers and small agencies. It provides a clean, responsive interface for managing clients, tasks, invoices, and project information through an intuitive SaaS-inspired dashboard.
 
-This contains everything you need to run your app locally.
+Built using modern frontend technologies and realistic mock data, the project focuses on responsive design, reusable components, and a polished user experience.
 
-View your app in AI Studio: https://ai.studio/apps/07e5633d-6cd8-4418-b71f-d30c8c092b77
+## Features
 
-## Run Locally
+### Dashboard
+- Business overview with summary cards
+- Recent activity feed
+- Upcoming deadlines
 
-**Prerequisites:**  Node.js
+### Clients
+- Browse client profiles
+- View company and contact information
+- Track project status
+- Dedicated client details page
+
+### Client Details
+- Client information
+- Project overview
+- Payment status
+- Assigned tasks
+- Notes and deadlines
+
+### Tasks
+- Interactive task list
+- Priority indicators
+- Due dates and status
+- Complete, Edit, and Delete actions (frontend only)
+
+### Invoices
+- Invoice overview
+- Payment status tracking
+- Preview, Download, and Send actions
+
+---
+
+## Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- React Router
+
+---
+
+## Highlights
+
+- Modern SaaS-inspired UI
+- Fully responsive design
+- Reusable React components
+- Interactive cards, modals, and dropdowns
+- Smooth animations and page transitions
+- Loading skeletons
+- Toast notifications
+- Clean and modular project architecture
+
+---
+
+## Responsive Design
+
+Optimized for:
+
+- 📱 Mobile
+- 📟 Tablet
+- 💻 Laptop
+- 🖥️ Desktop
+
+---
+
+## 🌐 Live Demo
+
+**Live Website:** https://your-demo-link.com
+
+---
+
+## 🛠️ Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/flowdesk.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd flowdesk
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📁 Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+├── data/
+├── hooks/
+├── layouts/
+├── pages/
+├── utils/
+├── App.jsx
+└── main.jsx
+```
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Future Improvements
+
+- Backend integration
+- User authentication
+- Database connectivity
+- Search and filtering
+- Team collaboration
+- Real-time notifications
+- Calendar integration
+- Analytics dashboard
+
+
+If you found this project interesting, consider giving it a ⭐ on GitHub.
